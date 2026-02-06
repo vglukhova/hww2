@@ -2,7 +2,7 @@
 import { pipeline } from "https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.7.6/dist/transformers.min.js";
 
 // Configuration
-const GOOGLE_SCRIPT_URL = 'YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL'; // Replace with your Google Script URL
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycby7D1Ze-uVl2ODr9WnMkgBPBleMj0E1QJzaPh2KY3spD4l2qaH78rHsVvDxOlXBzNvEmA/exec'; // Replace with your Google Script URL
 const MODEL_NAME = 'Xenova/distilbert-base-uncased-finetuned-sst-2-english';
 const TSV_FILE = 'reviews_test.tsv';
 
